@@ -1,7 +1,7 @@
 * {
   padding: 0;
   margin: 0;
-  font-style: Avenir;
+  text-decoration: none;
   color: #3D4E61;
 }
 
@@ -27,8 +27,34 @@ header .nav_header {
   justify-content: space-between;
   align-items: center;
 }
-header .nav_header .nav_header_paragraph {
+header .nav_header a {
   margin-left: 40px;
+  font-weight: bold;
+}
+
+footer {
+  width: 100%;
+  border-top: 1px solid #e5e5e5;
+}
+footer .footer_wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 44px 270px;
+}
+footer .footer_wrapper div {
+  display: flex;
+  flex-direction: column;
+}
+footer .footer_wrapper div span {
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+footer .footer_wrapper div a {
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 9px;
 }
 
 /*# sourceMappingURL=style.css.map */

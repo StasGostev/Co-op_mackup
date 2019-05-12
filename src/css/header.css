@@ -15,8 +15,9 @@ header .nav_header {
   justify-content: space-between;
   align-items: center;
 }
-header .nav_header .nav_header_paragraph {
+header .nav_header a {
   margin-left: 40px;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=header.css.map */
